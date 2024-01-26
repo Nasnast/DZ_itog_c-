@@ -57,7 +57,7 @@ namespace DZ_итоговое
             string[] res_arr = new string[LenArray(str_arr)];
             for (int i = 0; i < str_arr.Length; i++)
             {
-                if (str_arr[i].Length <= 3)
+                if (str_arr[i].Length <= 3) 
                 {
                     if (str_arr[i].Length > 0)
                     {
